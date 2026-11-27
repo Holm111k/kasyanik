@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="ru"><head><meta charset="utf-8"/>
+<meta content="Юрий Касьяник — композитор. Музыкально-поэтический арт-салон «Вторники» в Санкт-Петербурге с 1993 года." name="description"/><meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Юрий Касьяник — композитор</title>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600&amp;family=PT+Serif:wght@400&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#fff;--tx:#0a0a0a;--mut:#6f6f6f;--gr:#e0e0e0;--box:#b9b9b9;--ln:#e2e2e2;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0e0e;--tx:#f0f0f0;--mut:#9a9a9a;--gr:#1d1d1d;--box:#3a3a3a;--ln:#2a2a2a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0e0e;--tx:#f0f0f0;--mut:#9a9a9a;--gr:#1d1d1d;--box:#3a3a3a;--ln:#2a2a2a;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 14.5px/1.75 Unbounded,system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit}
+.w{max-width:1090px;margin:0 auto;padding:0 20px}
+.top{display:grid;grid-template-columns:1fr auto 1fr;align-items:start;gap:20px;padding-top:30px}
+.ct{color:var(--mut);font-size:13px;line-height:1.5}
+.ct a{text-decoration:none;display:block}
+.soc{display:flex;gap:12px;margin-top:14px}
+.soc i{width:26px;height:26px;border-radius:50%;background:#8a8a8a;display:block}
+.logo{font:600 15px/1.05 Unbounded;text-align:center;text-transform:uppercase;text-decoration:none;letter-spacing:.02em}
+.logo svg{display:block;margin:0 auto 6px;width:96px;height:24px}
+.sub{justify-self:end;background:var(--box);padding:8px 8px 10px;width:215px;font-size:10px;text-transform:uppercase;color:#fff}
+.sub div{display:flex;margin-top:5px;gap:8px}
+.sub input{flex:1;min-width:0;border:0;padding:7px 8px;font:10px Unbounded;background:#fff;color:#111}
+.sub button,.btn{background:#000;color:#fff;border:0;font:600 11px Unbounded;cursor:pointer;padding:9px 12px;text-decoration:none;display:inline-block}
+.sub button{padding:4px 14px;font-size:15px}
+nav{border-top:1px solid var(--ln);margin-top:22px;padding:18px 0;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 10px}
+nav a{text-transform:uppercase;text-decoration:none;font-size:13px;font-weight:400}
+nav a:hover{text-decoration:underline}
+.sq{display:inline-block;width:8px;height:22px;background:repeating-linear-gradient(-60deg,var(--c) 0 2px,transparent 2px 5px);margin-right:4px}
+.hero{position:relative;height:min(78vh,720px);min-height:420px;background:#000;overflow:hidden}
+.hero img,.band img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05);display:block;transform:scale(1.3);transition:filter .7s;will-change:transform}
+.hero p{position:absolute;left:max(20px,calc((100vw - 1090px)/2 + 20px));bottom:12%;margin:0;color:#fff;font:400 16px/1.45 'PT Serif',Georgia,serif;max-width:340px;text-shadow:0 1px 8px #000a}
+.hero h1{position:absolute;right:max(20px,calc((100vw - 1090px)/2 + 20px));top:10%;margin:0;color:#fff;font:600 clamp(34px,7vw,92px)/.95 Unbounded;text-transform:uppercase;text-align:right;mix-blend-mode:difference}
+.blk{background:var(--gr);padding:clamp(40px,6vw,64px) 20px}
+.col{max-width:690px;margin:0 auto}
+.col p{margin:0 0 1.5em}.col p:last-child{margin:0}
+.col h2,.cap{font:400 clamp(24px,3vw,32px)/1.2 'PT Serif',Georgia,serif;text-align:center;margin:0 0 22px;text-transform:none}
+.band{display:grid;grid-template-columns:1fr 1fr 1fr;height:clamp(240px,42vw,520px);background:#000;gap:0;overflow:hidden;position:relative;isolation:isolate}.band>div{overflow:hidden;position:relative;min-width:0;height:100%}.blk,.lists{position:relative;z-index:1}.pw{position:relative;isolation:isolate}
+.note{color:var(--mut);font-size:12.5px}
+.lists{display:grid;grid-template-columns:1fr 1fr;gap:36px;max-width:1050px;margin:0 auto;padding:36px 20px 60px}
+.lists img{width:100%;aspect-ratio:1;object-fit:cover;object-position:top;display:block;filter:grayscale(1)}
+.lists h2{font:400 24px 'PT Serif',Georgia,serif;text-align:center;margin:22px 0 18px}
+.lists p{margin:0 0 .15em;font-size:13.5px;line-height:1.6}
+.lists .btn{margin-top:30px}
+.tue .col{max-width:760px}
+.dates{list-style:none;margin:0 0 30px;padding:0}
+.dates li{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid #8885;text-transform:uppercase}
+.dates span{color:var(--mut);text-transform:none;font-size:13px}
+form{display:grid;gap:12px}
+label{font-size:11px;text-transform:uppercase;color:var(--mut);display:grid;gap:5px}
+input,select{background:var(--bg);color:var(--tx);border:1px solid #8886;padding:12px;font:inherit;border-radius:0;width:100%}
+input:focus,select:focus{outline:2px solid var(--tx)}
+form .btn{justify-self:start;padding:13px 22px}
+#ok{display:none;font-size:13px}
+.foot{background:#000;color:#fff;padding:50px 20px 30px}
+.foot .w{padding:0}.foot a{display:block;font:600 clamp(18px,4vw,42px)/1.2 Unbounded;text-decoration:none;word-break:break-all;margin:6px 0 24px}
+.foot small{color:#aaa;display:block;font-size:12px}
+.hero:hover img,.band div:hover img,.pw:hover img,.on img{filter:none}
+.pw{overflow:hidden;aspect-ratio:1}.pw img{height:100%;aspect-ratio:auto;transform:scale(1.2);transition:filter .7s;will-change:transform}
+.hero h1,.hero p{will-change:transform}
+.rv{opacity:0;transform:translateY(40px);transition:opacity .9s,transform .9s}.rv.in{opacity:1;transform:none}
+.btn{transition:transform .2s,background .2s}.btn:hover{transform:translate(3px,-3px);background:#333}
+@media(max-width:760px){.top{grid-template-columns:1fr}.sub{justify-self:start}.logo{order:-1}.lists{grid-template-columns:1fr}.band{grid-template-columns:1fr 1fr}.band div:nth-child(3){display:none}.hero h1{top:6%}}
+</style><meta content="#0e0e0e" name="theme-color"/></head><body>
+<header class="w"><div class="top">
+<div class="ct"><span>Санкт-Петербург</span><a href="#" id="m"></a></div>
+<a class="logo" href="#"><svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 96 24"><path d="M0 2h96M0 22h96M12 2l72 20M84 2L12 22"></path></svg>Юрий<br/>Касьяник</a>
+<div class="sub">Записаться на вторник<div><input id="q" placeholder="Ваша почта" type="email"/><button onclick="document.getElementById('em').value=document.getElementById('q').value;location.hash='tue'" type="button">&gt;</button></div></div>
+</div>
+<nav><a href="#bio">Биография</a><i class="sq" style="--c:#7a5cff"></i><a href="#tue">Вторники</a><i class="sq" style="--c:#ff4f8b"></i><a href="#proj">Проекты</a><i class="sq" style="--c:#19a15f"></i><a href="#contact">Контакты</a></nav></header>
+<div class="hero"><img alt="Юрий Касьяник у рояля" src="images/img_1.jpg"/><h1>Юрий<br/>Касьяник</h1><p>«Вторники» — каждую неделю с 1993 года. Больше 1700 вечеров музыки и поэзии.</p></div>
+<section class="blk" id="bio"><div class="col"><h2>Биография</h2>
+<p>Юрий Михайлович Касьяник — известный советский и российский композитор, пианист и мультиинструменталист. Живёт и работает в Санкт-Петербурге.</p>
+<p>С 1993 года он еженедельно проводит «Вторники» — музыкально-поэтический арт-салон, один из самых продолжительных творческих марафонов в истории современной российской культуры. Счёт вечеров перешагнул отметку в <b>1700</b>.</p>
+<p>Родился 28 июня 1948 года в Ленинграде. Также известен под именем URIEL. Был участником группы «Поп-механика». В 1989 году выступал на XII Ленинградском международном джазовом фестивале «Осенние ритмы — 89».</p></div></section>
+<div class="band"><div><img alt="Портрет" src="images/img_2.jpg"/></div><div><img alt="На сцене" src="images/img_3.jpg"/></div><div><img alt="Портрет" src="images/img_4.jpg"/></div></div>
+<section class="blk"><div class="col"><p>«Вторники Юрия Касьяника» — музыкально-поэтический арт-салон, который проходит в Санкт-Петербурге каждую неделю уже больше тридцати лет. Это один из самых долгих творческих марафонов современной российской культуры.</p>
+</div></section>
+<section class="lists" id="disc"><div><img alt="Фотография из архива" src="images/img_5.jpg"/><h2 id="proj">Проекты</h2>
+<p>1989 — джазовый фестиваль «Осенние ритмы — 89», Ленинград</p><p>«Поп-механика» — участник</p><p>с 1993 — «Вторники Юрия Касьяника», Санкт-Петербург</p></div>
+<div><img alt="Плакат Tuesdays 1500" src="images/img_6.jpg"/><h2>Вторники</h2>
+<p>Музыкально-поэтический арт-салон в Санкт-Петербурге.</p><p>Проходит каждую неделю с 1993 года.</p><p>Больше 1700 вечеров.</p><a class="btn" href="#tue">Ближайшие даты</a></div></section>
+<section class="blk tue" id="tue"><div class="col"><h2>Ближайшие вторники</h2>
+<ul class="dates" id="dates"></ul>
+<form id="f"><label>Имя<input autocomplete="name" name="n" required=""/></label>
+<label>Телефон или e-mail<input autocomplete="email" id="em" name="c" required=""/></label>
+<label>Дата<select id="sel" name="d"></select></label>
+<label>Гостей<select name="g"><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+<button class="btn" type="submit">Записаться</button><div id="ok">Откроется письмо с заявкой — отправьте его, и запись подтвердят.</div></form></div></section>
+<footer class="foot" id="contact"><div class="w"><small>Контакты</small><a href="#" id="m2"></a><small>Санкт-Петербург · «Вторники» каждую неделю</small><small style="margin-top:30px">© <span id="y"></span> Юрий Касьяник</small></div></footer>
+<script>
+var EMAIL="",TIME="",$=function(i){return document.getElementById(i)};
+['m','m2'].forEach(function(i){var e=$(i);if(EMAIL){e.href="mailto:"+EMAIL;e.textContent=EMAIL}else e.remove()});
+$('y').textContent=new Date().getFullYear();
+var d=new Date();d.setHours(0,0,0,0);d.setDate(d.getDate()+((2-d.getDay()+7)%7));
+var M=['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'],L='',O='';
+for(var k=0;k<4;k++){var t=d.getDate()+' '+M[d.getMonth()];L+='<li>'+t+'<span>вторник'+(TIME?' · '+TIME:'')+'</span></li>';O+='<option>'+t+'</option>';d.setDate(d.getDate()+7)}
+$('dates').innerHTML=L;$('sel').innerHTML=O;if(!EMAIL){document.querySelector('.sub').remove();$('f').remove()}
+if($('f'))$('f').addEventListener('submit',function(e){e.preventDefault();var f=e.target;
+var b='Имя: '+f.n.value+'\nКонтакт: '+f.c.value+'\nДата: '+f.d.value+'\nГостей: '+f.g.value;
+$('ok').style.display='block';
+location.href='mailto:'+EMAIL+'?subject='+encodeURIComponent('Запись на «Вторник»')+'&body='+encodeURIComponent(b)});
+(function(){
+if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+document.querySelectorAll('.lists>div>img').forEach(function(i){var w=document.createElement('div');w.className='pw';i.parentNode.insertBefore(w,i);w.appendChild(i)});
+var ps=[].slice.call(document.querySelectorAll('.hero img,.band img,.pw img')).map(function(el){var h=!!el.closest('.hero');return{el:el,c:el.closest('.hero,.band>div,.pw'),s:h?.12:.07,k:h?1.3:(el.closest('.pw')?1.2:1.3)}});
+var h1=document.querySelector('.hero h1'),hp=document.querySelector('.hero p'),tk=false;
+function run(){tk=false;var vh=innerHeight,y=scrollY;
+ps.forEach(function(p){var r=p.c.getBoundingClientRect();if(r.bottom<-100||r.top>vh+100)return;var o=r.top+r.height/2-vh/2;p.el.style.transform='translate3d(0,'+(-o*p.s).toFixed(1)+'px,0) scale('+p.k+')'});
+if(y<1200){h1.style.transform='translate3d(0,'+(-y*.28).toFixed(1)+'px,0)';hp.style.transform='translate3d(0,'+(-y*.12).toFixed(1)+'px,0)'}}
+function tick(){if(!tk){tk=true;requestAnimationFrame(run)}}
+addEventListener('scroll',tick,{passive:true});addEventListener('resize',tick);run();
+var rv=document.querySelectorAll('.col,.lists>div,.foot .w');
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+rv.forEach(function(e){e.classList.add('rv');io.observe(e)});
+if(matchMedia('(hover:none)').matches){var io2=new IntersectionObserver(function(es){es.forEach(function(e){e.target.classList.toggle('on',e.isIntersecting)})},{rootMargin:'-35% 0px -35% 0px'});
+ps.forEach(function(p){io2.observe(p.c)})}
+})();
+</script></body></html>
